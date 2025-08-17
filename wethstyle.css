@@ -46,7 +46,10 @@
         }
   .menu{
     position: fixed;
-    top: 20px;
+    background: rgb(10, 10, 10);
+    padding: 10px 15px;
+    z-index: 1000;
+    top: 5px;
     left: 10px;
   }
   .menu a{
