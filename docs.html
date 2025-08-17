@@ -158,8 +158,9 @@
         
         .tech-stack {
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+             grid-template-columns: repeat(2, 3fr);
+             flex-wrap: wrap;
+            
             gap: 20px;
             margin-top: 50px;
         }
@@ -223,6 +224,22 @@
             h1 {
                 font-size: 2.5rem;
             }
+            .tech-stack{
+                display: grid;
+            }
+            .tech-item{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+            }
+            .tech-stack span{
+                font-size: 13px;
+            }
+            .feature-card{
+                display: flex;
+                flex-direction: column;
+            }
             .fade-in{
                 display: flex;
                 justify-content: space-between;
@@ -232,7 +249,8 @@
             .cta-button{
                 padding: 10px 20px;
                 text-align: center;
-                font-size: 13px;
+                font-size: 17px;
+                
             }
             .tagline {
                 font-size: 1.2rem;
