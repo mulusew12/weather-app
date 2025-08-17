@@ -44,7 +44,15 @@
             background: radial-gradient(circle at center, rgba(67, 97, 238, 0.1) 0%, rgba(26, 26, 46, 1) 70%);
             animation: pulse 15s infinite alternate;
         }
-
+  .menu{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  .menu a{
+    color: wheat;
+    font-size: 20px;
+  }
         @keyframes pulse {
             0% {
                 transform: scale(1);
